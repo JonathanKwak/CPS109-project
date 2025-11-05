@@ -1,0 +1,20 @@
+This is some example text.
+
+Here is the grid:
+
+O O O O O O O O
+O S O O O O O O
+O O O X O O O O
+O O O X O O O O
+O O O O O O O O
+O O O O O O O O
+O O O X O X X O
+O O O O O O G X
+O O O O O O X O
+
+Legend:
+- "S": Start position
+- "G": Goal position
+- "X": Barricades/uncrossable
+- "O": Traversable
+- "-" or "|": Traversed space
