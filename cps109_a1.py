@@ -12,7 +12,39 @@ Pathfinding, A* algorithm
 
 """
 
+def get_rows(content):
+    index = 0
+    recording = False
+    rows = []
+
+    while index < len(content):
+        if "====" in content[index]:
+            print("Recording?", not recording)
+            recording = not recording
+            index += 1
+            continue
+        
+        if recording:
+            rows.append(content[index].strip())
+
+        index += 1
+    
+    return rows
+
+def display_map(rows):
+    for row in rows:
+        print(row)
+
+def get_neighbors():
+    pass
+
+def pathfind():
+    pass
+
 f = open("data.txt", "r")
 content = f.readlines()
-print(content)
+rows = get_rows(content)
+
+display_map(rows)
+
 f.close()

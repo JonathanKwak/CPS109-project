@@ -1,7 +1,4 @@
-This is some example text.
-
-Here is the grid:
-
+===============
 O O O O O O O O
 O S O O O O O O
 O O O X O O O O
@@ -11,6 +8,9 @@ O O O O O O O O
 O O O X O X X O
 O O O O O O G X
 O O O O O O X O
+===============
+NOTE: The grid must be sandwiched between the lines.
+NOTE 2: Do not include "=" lines elsewhere. The lines are strictly to detect the rows only
 
 Legend:
 - "S": Start position
