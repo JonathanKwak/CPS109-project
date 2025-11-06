@@ -1,20 +1,18 @@
-===============
-OOOOOOOO
-OSOOOGOO
-OOOXOOOO
-OOOXOOOO
-OOOOOOOO
-OOOOOOOO
-OOOXOXXO
-OOOOOOXO
-OOOOOOXO
-===============
-NOTE: The grid must be sandwiched between the lines.
-NOTE 2: Do not include "=" lines elsewhere. The lines are strictly to detect the rows only
+============
+Rock:Sponge,Scissors,Fire
+Paper:Rock,Water,Air
+Scissors:Sponge,Paper,Air
+Water:Rock,Scissors,Fire
+Air:Water,Fire,Rock
+Sponge:Water,Air,Paper
+============
 
-Legend:
-- "S": Start position
-- "G": Goal position
-- "X": Barricades/uncrossable
-- "O": Traversable
-- "-" or "|": Traversed space
+NOTE 1: Make sure you write the parameters SANDWICHED BETWEEN the equal lines.
+NOTE 2: Do NOT include any equal lines in this text file.
+NOTE 3: It's recommended to create a fully complete graph of all moves and what they beat, for easier understanding. Make sure every item is covered.
+
+What beats what?
+For example, Rock beats Scissors, Sponge and fire, so it'd be Rock:Scissors,Sponge,Fire
+Another example, Paper beats Rock, so Paper:Rock
+
+You can add whatever you want here. Don't worry, parameters are not case sensitive.
