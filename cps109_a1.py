@@ -97,6 +97,10 @@ while True:
     AI_choice = items[random.randint(0, len(items) - 1)].lower()
     my_choice = input(">").lower().strip()
 
+    if not my_choice in items:
+        print("Invalid choice.")
+        continue
+
     if my_choice == "quit":
         print("Quitting...")
         break
