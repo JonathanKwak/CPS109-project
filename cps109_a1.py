@@ -16,6 +16,9 @@ import time
 import random
 
 def parse_txt():
+    """
+    Interprets the data.txt file into something python can understand, specifically into the correct data types.
+    """
     f = open("data.txt", "r")
     content = f.readlines()
     f.close()
