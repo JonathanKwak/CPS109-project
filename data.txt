@@ -1,13 +1,13 @@
 ===============
-O O O O O O O O
-O S O O O O O O
-O O O X O O O O
-O O O X O O O O
-O O O O O O O O
-O O O O O O O O
-O O O X O X X O
-O O O O O O G X
-O O O O O O X O
+OOOOOOOO
+OSOOOOOO
+OOOXOOOO
+OOOXOOOO
+OOOOOOOO
+OOOOOOOO
+OOOXOXXO
+OOOOOOGX
+OOOOOOXO
 ===============
 NOTE: The grid must be sandwiched between the lines.
 NOTE 2: Do not include "=" lines elsewhere. The lines are strictly to detect the rows only
