@@ -1,12 +1,12 @@
 ===============
 OOOOOOOO
-OSOOOOOO
+OSOOOGOO
 OOOXOOOO
 OOOXOOOO
 OOOOOOOO
 OOOOOOOO
 OOOXOXXO
-OOOOOOGX
+OOOOOOXO
 OOOOOOXO
 ===============
 NOTE: The grid must be sandwiched between the lines.
